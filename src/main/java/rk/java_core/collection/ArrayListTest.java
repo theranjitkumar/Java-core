@@ -11,14 +11,19 @@ public class ArrayListTest {
 			al.add("rajesh");
 			al.add("Umesh");
 			al.add("Rakesh");
-			al.remove("Rakesh");
+			
 			Collections.sort(al);
-			Iterator itr = al.iterator();
-			while(itr.hasNext()){
-				System.out.println(itr.next());
+			
+			for(String s: al){
+				System.out.println(s);
 			}
+			
+//			Collection c = new Collections();
+			
+			
+			
+			
+			
 		}
-
-	
 
 }
